@@ -1,0 +1,172 @@
+.login-page{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25% 75%; 
+}
+
+.login-container{
+    background-color: #549635;
+    position: relative;
+    margin-top: 200px;
+    width: 50%;
+    border-radius: 25px;
+    padding: 20px;
+    min-height: 128px ;
+    height: 300px;
+}
+
+.login-item{
+    width: 50%;
+}
+
+
+.login-input{
+    position: relative;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.signup-container{
+    border-top-right-radius: 25px;
+    background-color: #549635;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+}
+
+.h1-signup{
+    margin-top: 100px;
+}
+
+.vertical-center {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .login-page{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100%; 
+        grid-template-rows: 40% 60%; 
+    }
+    .signup-container{
+        border-top-right-radius: 0px;
+        order: 1;
+    }
+    .login-container{
+        order: -1;
+        margin-top: 100px;
+        width: 90%;
+    }
+    .signup-page{
+        margin-top: 200px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .login-page{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 100%; 
+        grid-template-rows: 40% 60%; 
+        grid-auto-flow: dense;
+    } 
+    .signup-container{
+        border-top-right-radius: 0px;
+        order: 1;
+    }
+    .login-container{
+        order: -1;
+        margin-top: 100px;
+        width: 90%;
+    }
+    .signup-page{
+        margin-top: 200px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .login-page{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 40% 60%; 
+        grid-auto-flow: dense;
+    }
+    .login-container{
+        position: relative;
+        margin-top: 200px;
+        width: 80%;
+        border-radius: 25px;
+        padding: 20px;
+        min-height: 128px ;
+        height: 300px;
+    }
+    .signup-container{
+        border-top-right-radius: 25px;
+        order: -1;
+    }
+    .login-container{
+        order: 1;
+    }
+    .signup-page{
+        margin-top: 0px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .login-page{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 25% 75%; 
+    }
+    .login-container{
+        position: relative;
+        margin-top: 200px;
+        width: 70%;
+        border-radius: 25px;
+        padding: 20px;
+        min-height: 128px ;
+        height: 300px;
+    }
+    .signup-container{
+        order: -1;
+    }
+    .login-container{
+        order: 1;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .login-page{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 25% 75%; 
+    }
+    .login-container{
+        position: relative;
+        margin-top: 200px;
+        width: 50%;
+        border-radius: 25px;
+        padding: 20px;
+        min-height: 128px ;
+        height: 300px;
+    }
+    .signup-container{
+        order: -1;
+    }
+    .login-container{
+        order: 1;
+    }
+}

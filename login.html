@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TicketMatch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar mt-10">
+    <div class="container-fluid">
+      <a class="navbar-brand ml-50" href="index.html">Ticket<span class="green">Match</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex">
+          <input style="background-color: #eeedf2; border: none;" class="form-control me-2" type="search"
+          placeholder="🔍 Search for games" aria-label="Search">
+        </form>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 roboto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html#upcoming">Upcoming games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="create.html">Create</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="manage.html">Manage</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="login.html">Login</a></li>
+              <li><a class="dropdown-item" href="history.html">History</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="login-page">
+    <div class="signup-page">
+      <div class="signup-container">
+          <h1 class="h1-signup center-text mb-50 white">
+              Are you new?
+              <br />
+              Sign up today
+          </h1>
+          <form action="#" method="post">
+              <div class="login-item center">
+                  <p><input class="login-input" type="text" name="fn" placeholder="First name"/></p>
+              </div>
+              <div class="login-item center">
+                  <p><input class="login-input" type="text" name="mn" placeholder="Middle name"/></p>
+              </div>
+              <div class="login-item center">
+                  <p><input class="login-input" type="text" name="ln" placeholder="Last name"/></p>
+              </div>
+              <div class="login-item center">
+                  <p><input class="login-input" type="text" name="em" placeholder="Email"/></p>
+              </div>
+              <button type="submit" class="btn btn-light home-button center">Sign up</button>
+          </form>
+      </div>
+    </div>
+    <div class="login-container center">
+        <form class="mt-20 vertical-center" action="#" method="post">
+            <div class="login-item center mb-20">
+                <h1 class="center-text white">Welcome back!</h1>
+            </div>
+            <div class="login-item center mb-20">
+                <p><input class="login-input" type="text" name="nm" placeholder="Email"/></p>
+            </div>
+            <div class="login-item center mb-20">
+                <p><input class="login-input" type="text" name="nm" placeholder="Password"/></p>
+            </div>
+            <button type="submit" class="btn btn-light home-button center mb-20">Login</button>
+        </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  </body>
+</html>

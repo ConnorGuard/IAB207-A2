@@ -1,0 +1,109 @@
+.history-detail{
+    background-color: white; padding-top: 75px;
+    transition: margin-left .5s;
+    width: 100%;
+    min-height: 100vh;
+    overflow: scroll;
+    display: flex;
+    height: auto; min-height:100%;
+    flex-direction: column;
+}
+
+
+
+.history-section{
+    width: 75%;
+    height:auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    padding-bottom: 50px;
+    justify-content: center;
+    transition: margin-left .5s;
+    overflow: hidden;
+    flex-direction: column;
+    order: 3;
+}
+
+.history{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #eeedf2 !important;
+    border: none !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .history-detail{
+      background-color: white;
+        transition: margin-left .5s;
+        width: 100%;
+        min-height: 100vh;
+        overflow: scroll;
+        display: flex;
+        height: auto; min-height:100%;
+        flex-direction: column;
+        border-bottom-left-radius: 0px;
+        order: 1;
+    }
+    .history-section{
+        width: 90%;
+    } 
+}
+
+
+@media only screen and (min-width: 600px) {
+    .history-detail{
+        background-color: white;
+        transition: margin-left .5s;
+        width: 100%;
+        min-height: 100vh;
+        overflow: scroll;
+        display: flex;
+        height: auto; min-height:100%;
+        flex-direction: column;
+        border-bottom-left-radius: 0px;
+        order: 1;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .history-detail{
+       background-color: white;
+        transition: margin-left .5s;
+        width: 100%;
+        min-height: 100vh;
+        overflow: scroll;
+        display: flex;
+        height: auto; min-height:100%;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .history-detail{
+      background-color: white; 
+        transition: margin-left .5s;
+        width: 100%;
+        min-height: 100vh;
+        overflow: scroll;
+        display: flex;
+        height: auto; min-height:100%;
+        flex-direction: column;
+    }
+} 
+
+@media only screen and (min-width: 1200px) {
+    .history-detail{
+        background-color: white;
+        transition: margin-left .5s;
+        width: 100%;
+        min-height: 100vh;
+        overflow: scroll;
+        display: flex;
+        height: auto; min-height:100%;
+        flex-direction: column;
+    }
+}
+

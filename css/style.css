@@ -1,0 +1,97 @@
+@import "components.css";
+@import "home.css";
+@import "user.css";
+@import "upcoming.css";
+@import "create.css";
+@import "manage.css";
+@import "event.css";
+@import "history.css";
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.roboto{
+    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+}
+
+.green{
+    color: #549635
+}
+
+.white{
+    color: white !important;
+}
+
+.black{
+    color: solid black;
+}
+
+.center{
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.center-text{
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+}
+
+.toast-container {
+    position: fixed;
+    right: 50px;
+    top: 100px;
+    min-width: 300px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+.pt-25{
+    padding-top: 25px !important;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+
+.w-100{
+    width:100px
+}
+
+.w-50{
+    width:50px
+}
+
+.custom-navbar{
+    background-color: transparent;
+}
+
+.bg-trans{
+    background-color: transparent !important;
+}
+

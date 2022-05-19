@@ -1,0 +1,112 @@
+@import "components.css";
+
+.upcoming{
+    min-height: 100vh;  
+    background: rgb(255,255,255);
+    transition: margin-left .5s;
+    height:auto;
+    display: grid;
+    grid-template-columns: 0% 100%;
+}
+.events-container{
+    width: 85%;
+    height:auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    padding-bottom: 50px;
+    justify-content: center;
+    transition: margin-left .5s;
+}
+
+.event-card{
+    margin: 25px;
+    min-height: 350px !important;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    border-radius: 25px !important;
+}
+
+.event-card>img{
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+}
+
+.event-card:hover{
+    animation: float 4s ease-in-out infinite;  
+}
+.sidebar {
+    height: 100%;
+    width: 125px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #549635;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-top-right-radius: 25px;
+    margin-top: 25px;
+}
+
+.event-display{
+    transition: margin-left .5s;
+    height:auto;
+    overflow: hidden;
+    margin-left: 120px;
+}
+
+@media only screen and (max-width: 800px) {
+    .event-card{
+        margin: 25px;
+    }
+
+    .events-container{
+        width: 90%;
+    }
+    .event-display{
+        margin-left: 25px;
+    }
+    .sidebar {
+        width: 25px;
+    }   
+}
+
+.sidebar a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: white;
+display: block;
+transition: 0.3s;
+}
+
+.sidebar a:hover {
+color: #dcdcdc;
+}
+
+.filterbtn {
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #549635;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 12.5%;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 75px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
+}
+
+
